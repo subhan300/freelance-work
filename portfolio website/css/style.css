@@ -1669,3 +1669,13 @@ padding-bottom: 20px;
 }
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
+
+
+/* skills portion design css */
+
+.skills{
+    background-color:white;
+
+}
+.skills_first_heading_div{display: flex;justify-content: center;color:"yellow"
+}
