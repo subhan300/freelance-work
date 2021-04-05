@@ -1,0 +1,23 @@
+/* .App {
+  text-align: center;
+} */
+
+.main{
+  display:flex;flex-direction: column;
+}
+
+.header{
+  background-color: blueviolet;position: fixed;margin-top:0%;width:100%
+}
+
+.underHeader{
+  display: flex;border:2px solid red
+}
+.sidebar{background-color: cadetblue;flex:.2;position: fixed;margin-top:11.8%;}
+.content{background-color: chocolate;flex:.9;margin-top:20%;}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    background-color: lightblue;
+  }
+}
